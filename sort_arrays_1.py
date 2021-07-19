@@ -1,8 +1,6 @@
-# https://www.codewars.com/kata/51f41b98e8f176e70d0002a8/train/python
+# https://www.codewars.com/kata/594093784aafb857f0000122/train/python
 
 
-# input: names - unsorted list
-# output: sorted list
+def diff(a, b):
+	return sorted(set(a).symmetric_difference(b))
 
-def sortme(names):
-    return sorted(names)
