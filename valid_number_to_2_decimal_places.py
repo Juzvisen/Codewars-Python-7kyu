@@ -6,3 +6,6 @@ import re
 def valid_number(n):
     return bool(re.fullmatch('[+-]?\d*\.\d\d', n)
 
+
+print(valid_number("10.00"))
+
